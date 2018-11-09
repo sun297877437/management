@@ -1,74 +1,10 @@
-// 消息提示
-.el-message {
-  min-width: 320px !important;
-  width: 8rem;
-  padding: 10px 10px 10px 10px;
-  .el-message__content {
-    font-size: 14px;
-  }
-  .el-message__icon {
-    font-size: 20px;
-  }
+.el-menu,
+.el-submenu__title,
+.el-menu-item {
+    background-color: rgb(50, 65, 87) !important;
 }
-// 分页按钮
-.el-pagination {
-  display: flex;
-  justify-content: center;
+
+.el-menu-item:hover,
+.el-submenu__title:hover {
+    background-color: rgb(40, 52, 70) !important;
 }
-// .income {
-//     .title {
-//       .el-dropdown {
-//         display: flex;
-//         width: 2.11rem;
-//         height: 0.35rem;
-//         margin-left: 0.86rem;
-//         line-height: 0.35rem;
-//         background-color: #ffffff;
-//         border-radius: 0.02rem;
-//         border: solid 0.01rem #dadada;
-//         box-sizing: border-box;
-//         span {
-//           flex: 1;
-//           display: flex;
-//           justify-content: space-between;
-//           width: 2.11rem;
-//           font-size: 0.16rem;
-//           color: #8c8c8c;
-//           .el-icon--left {
-//             margin-right: 0.14rem;
-//             line-height:0.35rem;
-//           }
-//         }
-//       }
-//     }
-//   }
-//   .time-withdrawal {
-//             height: 0.28rem;
-//             line-height: 0.28rem;
-//             font-size: 0.12rem;
-//           .el-input__prefix, .el-input__suffix{
-//             display: none;
-//           }
-//           .el-input--prefix .el-input__inner,.el-input--suffix .el-input__inner {
-//             padding: 0;
-//           }
-//           .el-date-editor.el-input {
-//             width: 1.1rem;
-//           }
-//           .el-input__inner {
-//             width: 100%;
-//             height:100%;
-//             padding: 0.02rem !important;
-//             padding-bottom: 0.03rem !important;
-//             cursor: pointer;
-//             font-size: 0.14rem;
-//             color: #181818;
-//             background-color: #f4f4f4;
-//             border-radius: 0;
-//             border: solid 0.01rem #acacac;
-//             box-sizing: border-box;
-//             &::-webkit-input-placeholder{
-//                  color: #3c3c3c;
-//           }
-//           }
-//   }

@@ -11,18 +11,18 @@ import 'js/util.js'
 
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
-import FastClick from 'fastclick'//解决300毫秒延迟
+import FastClick from 'fastclick' //解决300毫秒延迟
 
-FastClick.attach(document.body);//解决300毫秒延迟
+FastClick.attach(document.body); //解决300毫秒延迟
 Vue.prototype.axios = axios;
 Vue.config.productionTip = false
 Vue.use(ElementUI);
 
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
-  router,
-  Store,
-  components: { App },
-  template: '<App/>'
+    el: '#app',
+    router,
+    Store,
+    components: { App },
+    template: '<App/>'
 })
