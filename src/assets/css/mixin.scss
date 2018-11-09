@@ -1,0 +1,36 @@
+%flexcc{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+%flexac{
+    display: flex; 
+    align-items: center;
+}
+%flexca{
+    display: flex;
+    justify-content: center;
+}
+%clearfix{
+    &:after { 
+        display: block;
+        overflow: hidden;
+        content: '';clear: 
+        both;height: 0;
+    }
+}
+%hidescroll::-webkit-scrollbar {
+    display: none;
+}
+@mixin flex($x, $y) {
+    display: flex;
+    justify-content: $x;
+    align-items: $y;
+}
+@mixin position($type, $top, $bottom, $left,$right) {
+    position: $type;
+    top:$top;
+    bottom:$bottom;
+    left:$left;
+    right:$right;
+}
